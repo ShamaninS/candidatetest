@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\kroio\.Rider2019.3\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\kroio\.Rider2019.3\system\resharper-host\local\Transient\ReSharperHost\v193\SolutionCaches\_TestTaskTransneft.-94919818.00" t="ExcludeRecursive" />
+    <e p="E:\Гугл.Диск\Программирование\Test task (Транснефть)\TestTaskTransneft v.2" t="IncludeRecursive">
+      <e p="App.config" t="Include" />
+      <e p="App.xaml" t="Include" />
+      <e p="App.xaml.cs" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="CsvFileItem.cs" t="Include" />
+      <e p="JsonFileItem.cs" t="Include" />
+      <e p="Logo.png" t="Include" />
+      <e p="MainWindow.xaml" t="Include" />
+      <e p="MainWindow.xaml.cs" t="Include" />
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="App.g.cs" t="Include" />
+          <e p="MainWindow.g.cs" t="Include" />
+          <e p="SelectionForm.g.cs" t="Include" />
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="packages.config" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="AssemblyInfo.cs" t="Include" />
+        <e p="Resources.Designer.cs" t="Include" />
+        <e p="Resources.resx" t="Include" />
+      </e>
+      <e p="SelectionForm.xaml" t="Include" />
+      <e p="SelectionForm.xaml.cs" t="Include" />
+      <e p="TestTaskTransneft.csproj" t="IncludeRecursive" />
+      <e p="TestTaskTransneft.sln" t="IncludeFlat" />
+      <e p="XmlFileItem.cs" t="Include" />
+    </e>
+  </component>
+</project>

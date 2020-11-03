@@ -1,0 +1,33 @@
+﻿<Window x:Class="TestTaskTransneft.SelectionForm"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TestTaskTransneft"
+        mc:Ignorable="d"
+        Title="Выберите строки" Height="453" Width="700" Loaded="Window_Loaded">
+    <Grid>
+        <DataGrid x:Name="dgSelectionForm" 
+                  Margin="0,0,0,43"
+                  AutoGenerateColumns="False"
+                  CanUserDeleteRows="False"
+                  SelectionMode="Single"
+                  CanUserReorderColumns="False"
+                  CanUserAddRows="False"
+                  CanUserResizeRows="False"
+                  CanUserResizeColumns="False"
+                  SelectionUnit="FullRow">
+            <DataGrid.Selected>DgSelectionForm_OnSelected</DataGrid.Selected>
+            
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn Binding="{Binding Path = isChecked}" IsReadOnly="False" Width="25"></DataGridCheckBoxColumn>
+                <DataGridTextColumn Binding="{Binding Path = Type}" IsReadOnly="True" Header="Тип" Width="50" CanUserSort="True"></DataGridTextColumn>
+                <DataGridTextColumn Binding="{Binding Path = Name}" IsReadOnly="True" Header="Наименование строки" Width="*" CanUserSort="True"></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Button Name="Apply" Content="Применить" HorizontalAlignment="Right" Margin="0,0,100,10" VerticalAlignment="Bottom" Width="75" Click="Apply_OnClick"/>
+        <Button Name="Cancel" Content="Выйти" HorizontalAlignment="Right" Margin="0,0,20,10" VerticalAlignment="Bottom" Width="74" Click="Cancel_OnClick"/>
+        <CheckBox Name="Toggle" Margin="10,5,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" IsChecked="True" Click="Toggle_OnClick"/>
+    </Grid>
+
+</Window>
